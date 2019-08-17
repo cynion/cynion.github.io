@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+    <article class="post">
+      
+      <div class="date">
+        {{ post.date | date: "%B %e, %Y" }}
+      </div>
+      
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more&hellip;</a>
+    </article>
+  {% endfor %}
+  
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-angle-left"></i></a>
+    {% else %}
+      <span><i class="fas fa-angle-left"></i></span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="webjeda">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="/">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-angle-right"></i></a>
+    {% else %}
+      <span><i class="fas fa-angle-right"></i></span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
