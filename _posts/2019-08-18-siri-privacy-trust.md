@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sir, Privacy & Trust"
-date: 2019-08-18 16:00 +0100
+date: 2019-08-18 17:45 +0100
 link-url: https://daringfireball.net/2019/08/siri_privacy_trust
 categories: Links
 ---
