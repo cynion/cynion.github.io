@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/cynion
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cynion.com
+  * I am cynion (https://keybase.io/cynion) on keybase.
+  * I have a public key ASDDTAK6-3rZ1QmYJO0JzcbrgdwB_Dl5AUvyLFDjozNPKAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c34c02bafb7ad9d5099824ed09cdc6eb81dc01fc3979014bf22c50e3a3334f280a",
+            "host": "keybase.io",
+            "kid": "0120c34c02bafb7ad9d5099824ed09cdc6eb81dc01fc3979014bf22c50e3a3334f280a",
+            "uid": "4e90463fe192be4022cb89fb89fd3b19",
+            "username": "cynion"
+        },
+        "service": {
+            "hostname": "cynion.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.22"
+    },
+    "ctime": 1495183664,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1495183651,
+        "hash": "25334840d4fcc76b1d563381e9fcebbf19b68c0adda08612494d26df6a0148095bf0f7621c5199ea7a3fa077bd406a7779df0bc2ff95507e7d9929a67682fcb4",
+        "seqno": 1095258
+    },
+    "prev": "b99568996eac473b1b179c8c0173e5f5a758aa5100763a6412b237dcca3cea75",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgw0wCuvt62dUJmCTtCc3G64HcAfw5eQFL8ixQ46MzTygKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzM0YzAyYmFmYjdhZDlkNTA5OTgyNGVkMDljZGM2ZWI4MWRjMDFmYzM5NzkwMTRiZjIyYzUwZTNhMzMzNGYyODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzM0YzAyYmFmYjdhZDlkNTA5OTgyNGVkMDljZGM2ZWI4MWRjMDFmYzM5NzkwMTRiZjIyYzUwZTNhMzMzNGYyODBhIiwidWlkIjoiNGU5MDQ2M2ZlMTkyYmU0MDIyY2I4OWZiODlmZDNiMTkiLCJ1c2VybmFtZSI6ImN5bmlvbiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiY3luaW9uLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIyIn0sImN0aW1lIjoxNDk1MTgzNjY0LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTUxODM2NTEsImhhc2giOiIyNTMzNDg0MGQ0ZmNjNzZiMWQ1NjMzODFlOWZjZWJiZjE5YjY4YzBhZGRhMDg2MTI0OTRkMjZkZjZhMDE0ODA5NWJmMGY3NjIxYzUxOTllYTdhM2ZhMDc3YmQ0MDZhNzc3OWRmMGJjMmZmOTU1MDdlN2Q5OTI5YTY3NjgyZmNiNCIsInNlcW5vIjoxMDk1MjU4fSwicHJldiI6ImI5OTU2ODk5NmVhYzQ3M2IxYjE3OWM4YzAxNzNlNWY1YTc1OGFhNTEwMDc2M2E2NDEyYjIzN2RjY2EzY2VhNzUiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDsOcinDZxl0AvOe9FDyhewEKrYfxzrRiCkx+NvejHzC7+Rrd2Q2LS8Bu7x+A7JsZAMsa7iSrCsYPcs5bYFDtsCqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgzVc667Gqp0ZYIIwvLwT5j1Zi6nrTxEYSsQ5UBIEggQ6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cynion
+
+==================================================================
