@@ -304,6 +304,16 @@ nav {
   }
 }
 
+blockquote {
+  margin: 0 1em;
+  color: $gray;
+  font-size: 1.4em;
+  font-style: italic;
+  @include mobile {
+    font-size: 1.2em;
+  }
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
