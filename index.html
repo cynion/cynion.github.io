@@ -10,7 +10,11 @@ layout: default
         {{ post.date | date: "%B %e, %Y" }}
       </div>
       
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      {% if post.link-url %}
+        <h1><a href="{{ post.link-url }}">{{ post.title }} <i class="fas fa-external-link-alt"></i></a>
+      {% else %}
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      {% endif %}
 
       <div class="entry">
         {{ post.excerpt }}
