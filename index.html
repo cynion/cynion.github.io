@@ -11,7 +11,7 @@ layout: default
       </div>
       
       {% if post.link-url %}
-        <h1><a href="{{ post.link-url }}">{{ post.title }} <i class="fas fa-external-link-alt"></i></a></h1>
+        <h1><a href="{{ post.link-url }}">{{ post.title }} <i class="fas fa-link"></i></a></h1>
       {% else %}
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       {% endif %}
