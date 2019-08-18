@@ -1,5 +1,7 @@
 <figure class="quote">
-	<blockquote>{{ include.quote }}</blockquote>
+	<blockquote>
+    <p>{{ include.quote }}</p>
+  </blockquote>
   {% if include.author %}
 	<figcaption>{{ include.author}}{% if include.cite %}, <cite>{{ include.cite }}</cite>{% endif %}</figcaption>
   {% endif %}
