@@ -7,11 +7,7 @@ layout: default
     {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  {% if page.link-url %}
-    <h1><a href="{{ page.link-url }}">{{ page.title }} <i class="fas fa-link"></i></a></h1>
-  {% else %}
-    <h1>{{ page.title }}</h1>
-  {% endif %}
+  <h1>{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
