@@ -13,6 +13,7 @@ $font: 'Fira Sans', Helvetica, Arial, sans-serif;
 
 /* colours
 --------------------------------------------- */
+$background: #f7f5f3;
 $blue: #4183C4;
 $black: #000;
 $darkerGray: #222;
@@ -36,7 +37,7 @@ html {
 }
 
 body {
-	background: $white;
+	background: $background;
   font: 18px/1.4 $font;
   color: $darkGray;
 }
