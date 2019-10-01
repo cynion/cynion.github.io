@@ -14,6 +14,7 @@ $font: 'Fira Sans', Helvetica, Arial, sans-serif;
 /* colours
 --------------------------------------------- */
 $background: #f7f5f3;
+$link: #daaf2b;
 $blue: #4183C4;
 $black: #000;
 $darkerGray: #222;
@@ -88,11 +89,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $darkGray;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $link;
   }
 }
 
@@ -249,7 +250,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $link;
     }
   }
 }
