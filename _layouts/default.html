@@ -43,13 +43,16 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          <small>
           {% include svg-icons.html %}
+          </small>
           <p>&copy; 1998-{{ site.time | date: '%Y' }} <a href="/">{{ site.name }}</a></p>
         </footer>
       </div>
     </div>
 
-    <script defer src="https://kit.fontawesome.com/499e9b3ed0.js"></script>    
+    <script defer src="https://kit.fontawesome.com/499e9b3ed0.js"></script>
+   
     {% include analytics.html %}
   </body>
 </html>
