@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image scrubber - before after</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<div class="slide-container">
+		<div class="slide-container__left" /></div>
+		<div class="slide-container__right" /></div>
+		<!--
+		Input element with a range of 0-100, this is used to set the image
+		width percentage using jQuery. Step set to 0.1 for smoothness when sliding.
+		-->
+		<input type="range" min="0" max="100" step="0.1" class="slide-container__bar" />
+	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+	<script  src="./script.js"></script>
+</body>
+</html>
